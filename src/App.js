@@ -1,17 +1,24 @@
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import {   BrowserRouter,
+  Routes,
+  Route} from "react-router-dom";
 
-function App() {
+//Components
+import LandingPage from "./components/LandingContainer/LandingPage"
+// import CodeFastContainer from "./components/CodeFastContainer"
+// import CodeBlueContainer from "./components/CodeBlueContainer"
+// import LogContainer from "./components/LogContainer"
+
+export default function App() {
   return (
-    <div className="App">
-      <Router>
-        <Route path="/"><LandingPage/></Route>
-        <Route path="/codeFast"><CodeFastContainer/></Route>
-        <Route path="/codeBlue"><CodeBlueContainer/></Route>
-        <Route path="/log"><LogContainer/></Route>
-      </Router>
-    </div>
+
+<BrowserRouter>
+<Routes>
+  <Route path="/" element={<LandingPage />}/>
+  {/* <Route path="/codeFast" element={<CodeFastContainer />}/>
+  <Route path="/codeBlue" element={<CodeBlueContainer />}/>
+  <Route path="/log" element={<LogContainer />}/> */}
+</Routes>
+</BrowserRouter>
   );
 }
-
-export default App;
