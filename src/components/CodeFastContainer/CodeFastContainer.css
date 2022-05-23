@@ -1,0 +1,5 @@
+.main-code-fast-container{
+    display: grid;
+    grid-template-areas: "Navbar Navbar Navbar Navbar";
+}
+

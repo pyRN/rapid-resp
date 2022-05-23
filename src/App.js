@@ -5,8 +5,8 @@ import {   BrowserRouter,
 
 //Components
 import LandingPage from "./components/LandingContainer/LandingPage"
-// import CodeFastContainer from "./components/CodeFastContainer"
-// import CodeBlueContainer from "./components/CodeBlueContainer"
+import CodeFastContainer from "./components/CodeFastContainer/CodeFastContainer"
+import CodeBlueContainer from "./components/CodeBlueContainer/CodeBlueContainer"
 // import LogContainer from "./components/LogContainer"
 
 export default function App() {
@@ -15,9 +15,9 @@ export default function App() {
 <BrowserRouter>
 <Routes>
   <Route path="/" element={<LandingPage />}/>
-  {/* <Route path="/codeFast" element={<CodeFastContainer />}/>
+  <Route path="/codeFast" element={<CodeFastContainer />}/>
   <Route path="/codeBlue" element={<CodeBlueContainer />}/>
-  <Route path="/log" element={<LogContainer />}/> */}
+  {/* <Route path="/log" element={<LogContainer />}/> */}
 </Routes>
 </BrowserRouter>
   );

@@ -1,0 +1,41 @@
+h1{
+    margin: 0;
+    font-size: 50pt;
+    color: red;
+}
+
+hr{
+    margin: 30px;
+    color: blue;
+}
+
+.hero{
+    text-align: center;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+}
+
+.hero-text{
+    color: blue;
+}
+
+.card-link{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+
+.card-link-header{
+    margin: 0 5px;
+    color: #222
+}
