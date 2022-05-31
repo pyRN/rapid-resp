@@ -1,30 +1,35 @@
 .landing-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   color: white;
-  background: var(--tertiary-red) url("../../media/Landing-Image.jpg") center no-repeat;
+  background: var(--tertiary-red) url("../../media/Landing-Image.jpg") center
+    no-repeat;
   background-blend-mode: multiply, luminosity;
 }
 
 h1 {
-  margin: 0;
-  font-size: 45pt;
+  margin: 5% 0;
+  font-size: 8vh;
   color: var(--primary-red);
   opacity: 1;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 hr {
   border: 1px solid var(--primary-red);
-  width: 550px;
-  margin: 0;
+  width: 80%;
+  margin: 5% 0;
 }
 
 .landing-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   background-color: var(--primary-gray);
   border: 2px solid black;
@@ -40,6 +45,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 5% 0;
 }
 
 .landing-btn {
@@ -50,11 +56,24 @@ hr {
   padding: 10px;
   margin: 10px;
   width: 200px;
+  min-width: 100px;
   height: 65px;
+  font-size: 15pt;
 }
 
 .landing-btn:hover {
-  background-color: var(--primary-red);
+  background-color: black;
   color: white;
-  box-shadow: 0px 0px 5px var(--primary-red);
+  box-shadow: 0px 0px 10px var(--primary-red);
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 35pt;
+  }
+
+  .landing-card {
+    justify-content: space-around;
+  }
 }
