@@ -4,19 +4,19 @@
   align-items: center;
   height: 100vh;
   color: white;
-  background: var(--red) url("../../media/Landing-Image.jpg") center no-repeat;
+  background: var(--tertiary-red) url("../../media/Landing-Image.jpg") center no-repeat;
   background-blend-mode: multiply, luminosity;
 }
 
 h1 {
   margin: 0;
   font-size: 45pt;
-  color: var(--red);
+  color: var(--primary-red);
   opacity: 1;
 }
 
 hr {
-  border: 1px solid var(--red);
+  border: 1px solid var(--primary-red);
   width: 550px;
   margin: 0;
 }
@@ -26,7 +26,7 @@ hr {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(52, 58, 64, 0.75);
+  background-color: var(--primary-gray);
   border: 2px solid black;
   border-radius: 8px;
   padding: 20px;
@@ -43,10 +43,10 @@ hr {
 }
 
 .landing-btn {
-  background-color: black;
-  border: 1px solid var(--red);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid var(--primary-red);
   border-radius: 60px 60px 60px 60px;
-  color: var(--red);
+  color: var(--primary-red);
   padding: 10px;
   margin: 10px;
   width: 200px;
@@ -54,7 +54,7 @@ hr {
 }
 
 .landing-btn:hover {
-  background-color: var(--red);
+  background-color: var(--primary-red);
   color: white;
-  box-shadow: 0px 0px 5px var(--red);
+  box-shadow: 0px 0px 5px var(--primary-red);
 }
