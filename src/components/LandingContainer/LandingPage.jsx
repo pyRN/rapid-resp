@@ -9,6 +9,9 @@ const LandingPage = () => {
         <h1>Rapid Response</h1>
         <hr></hr>
         <div className="landing-btns-container">
+          <button className="landing-btn" onClick={() => fnNavigate("/stemi")}>
+            STEMI
+          </button>
           <button
             className="landing-btn"
             onClick={() => fnNavigate("/codeFast")}
