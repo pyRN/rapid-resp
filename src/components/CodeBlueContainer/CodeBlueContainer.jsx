@@ -1,6 +1,14 @@
 //Components
+import CPR from "./CPR";
 import Footer from "../Global/Footer";
+import Medications from "./Medications";
 import NavBar from "../Global/NavBar";
+import Notes from "./Notes";
+import PTA from "./PTA";
+import Procedures from "./Procedures";
+import QuickMeds from "./QuickMeds";
+import Rhythm from "./Rhythm";
+import Team from "./Team";
 
 const CodeBlueContainer = () => {
   const oCodeBlueNavElements = {
@@ -13,6 +21,10 @@ const CodeBlueContainer = () => {
       bCodeTime: true,
     },
     aNavBtns: [
+      {
+        sText: "PTA",
+        sId: "#pta-nav",
+      },
       {
         sText: "CPR",
         sId: "#cpr-nav",
@@ -46,6 +58,14 @@ const CodeBlueContainer = () => {
   return (
     <main className="main-code-blue-container">
       <NavBar oElements={oCodeBlueNavElements} />
+      <PTA />
+      <CPR />
+      <Rhythm />
+      <QuickMeds />
+      <Procedures />
+      <Medications />
+      <Team />
+      <Notes />
       <Footer />
     </main>
   );
