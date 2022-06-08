@@ -1,11 +1,16 @@
 :root {
   --primary-blue: rgba(1, 69, 172, 1);
   --primary-gray: rgba(52, 58, 64, 0.65);
+  --primary-green: rgba(36, 158, 25, 1);
+  --primary-white: rgb(255, 255, 255);
+  --sub-secondary-gray: rgba(65, 67, 70, 1);
   --sub-tertiary-red: rgba(249, 134, 145, 1);
   --sub-secondary-red: rgba(242, 91, 105, 1);
   --primary-red: rgba(220, 53, 69, 1);
   --secondary-red: rgba(187, 22, 38, 1);
   --tertiary-red: rgba(149, 4, 18, 1);
+
+  --btn-border-radius: 60px 60px 60px 60px;
 }
 
 html,
@@ -16,6 +21,10 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+h2 {
+  margin: 0;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -24,4 +33,61 @@ body {
 .column {
   display: flex;
   flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card {
+  background-color: var(--sub-secondary-gray);
+  border: 1px solid var(--primary-red);
+  border-radius: 8px;
+  color: var(--sub-tertiary-red);
+  width: 100%;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+.card-header {
+  width: 100%;
+  margin: 0;
+  padding: 10px 10px 0px 10px;
+  text-align: center;
+}
+
+.card-content {
+  width: 100%;
+  margin: 0;
+  padding: 0px 10px 10px 10px;
+}
+
+.text-area {
+  margin: 5px;
+  color: var(--sub-tertiary-red);
+}
+
+.save-btn {
+  background-color: var(--primary-green);
+  border: 1px solid var(--primary-green);
+  border-radius: var(--btn-border-radius);
+  color: var(--primary-white);
+  height: 30px;
+  width: 70px;
+  margin: 5px;
+}
+
+.save-btn:hover {
+  background-color: var(--primary-white);
+  color: var(--primary-green);
+  box-shadow: 0px 0px 10px var(--primary-green);
+  transition: 0.3s ease-in;
 }
