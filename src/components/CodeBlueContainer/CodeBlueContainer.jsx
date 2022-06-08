@@ -1,5 +1,6 @@
 //Components
 import CPR from "./CPR";
+import Defibrillate from "./Defibrillate";
 import Footer from "../Global/Footer";
 import Medications from "./Medications";
 import NavBar from "../Global/NavBar";
@@ -58,14 +59,18 @@ const CodeBlueContainer = () => {
   return (
     <main className="main-code-blue-container">
       <NavBar oElements={oCodeBlueNavElements} />
-      <PTA />
-      <CPR />
-      <Rhythm />
-      <QuickMeds />
-      <Procedures />
-      <Medications />
-      <Team />
-      <Notes />
+      <div className="container center">
+        <PTA />
+        <CPR />
+        <Defibrillate />
+        <Rhythm />
+        <QuickMeds />
+        <Procedures />
+        <Medications />
+        <Team />
+        <Notes />
+      </div>
+
       <Footer />
     </main>
   );
