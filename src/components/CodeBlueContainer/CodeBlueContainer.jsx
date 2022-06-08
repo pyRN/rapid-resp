@@ -57,9 +57,9 @@ const CodeBlueContainer = () => {
     ],
   };
   return (
-    <main className="main-code-blue-container">
+    <main>
       <NavBar oElements={oCodeBlueNavElements} />
-      <div className="container center">
+      <div className="main-code-blue-container">
         <PTA />
         <CPR />
         <Defibrillate />

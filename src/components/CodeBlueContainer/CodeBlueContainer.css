@@ -1,5 +1,11 @@
-.main-code-blue-container{
-    display: grid;
-    grid-template-areas: "Navbar Navbar Navbar Navbar";
+.main-code-blue-container {
+  display: flex;
+  flex-direction: column;
 }
 
+/* @media only screen and (max-width: 500px) {
+  .main-code-blue-container {
+    display: flex;
+    flex-direction: column;
+  }
+} */
