@@ -8,7 +8,7 @@ function Defibrillate() {
   };
 
   return (
-    <div className="column center card">
+    <div className="defibrillate-card column center card">
       <div className="card-header">
         <h2>Defibrillate</h2>
       </div>

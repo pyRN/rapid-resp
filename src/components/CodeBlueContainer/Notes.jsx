@@ -7,7 +7,7 @@ const Notes = () => {
     event.preventDefault();
   };
   return (
-    <div className="column center card">
+    <div className="notes-card column center card">
       <div className="card-header">
         <h2>Notes</h2>
       </div>

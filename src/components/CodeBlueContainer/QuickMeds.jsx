@@ -29,7 +29,7 @@ const QuickMeds = () => {
   ];
 
   return (
-    <div className="column center card">
+    <div className="quickmeds-card column center card">
       <div className="card-header">
         <h2>Quick Meds</h2>
       </div>

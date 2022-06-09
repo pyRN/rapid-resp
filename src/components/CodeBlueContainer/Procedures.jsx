@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 
 const Procedures = () => {
   return (
-    <div className="column center card">
+    <div className="procedures-card column center card">
       <div className="card-header">
         <h2>Procedures</h2>
       </div>

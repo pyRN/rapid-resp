@@ -1,3 +1,4 @@
+import "./CodeBlueContainer.css";
 //Components
 import CPR from "./CPR";
 import Defibrillate from "./Defibrillate";
@@ -5,6 +6,7 @@ import Footer from "../Global/Footer";
 import Medications from "./Medications";
 import NavBar from "../Global/NavBar";
 import Notes from "./Notes";
+import Outcome from "./Outcome";
 import PTA from "./PTA";
 import Procedures from "./Procedures";
 import QuickMeds from "./QuickMeds";
@@ -69,8 +71,8 @@ const CodeBlueContainer = () => {
         <Medications />
         <Team />
         <Notes />
+        <Outcome />
       </div>
-
       <Footer />
     </main>
   );

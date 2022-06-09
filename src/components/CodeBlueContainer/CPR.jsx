@@ -7,7 +7,7 @@ const CPR = () => {
     event.preventDefault();
   };
   return (
-    <div className="column center card">
+    <div className="cpr-card column center card">
       <div className="card-header">
         <h2>CPR</h2>
       </div>

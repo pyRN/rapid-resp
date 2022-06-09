@@ -18,7 +18,7 @@ const Rhythm = () => {
   ];
 
   return (
-    <div className="column center card">
+    <div className="rhythm-card column center card">
       <div className="card-header">
         <h2>Rhythm</h2>
       </div>

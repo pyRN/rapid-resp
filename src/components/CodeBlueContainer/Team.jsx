@@ -7,7 +7,7 @@ const Team = () => {
     event.preventDefault();
   };
   return (
-    <div className="column center card">
+    <div className="team-card column center card">
       <div className="card-header">
         <h2>Team Members</h2>
       </div>

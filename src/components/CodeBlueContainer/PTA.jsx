@@ -22,7 +22,7 @@ const PTA = () => {
   };
 
   return (
-    <div className="column center card">
+    <div className="pta-card column center card ">
       <div className="card-header">
         <h2>Prior To Arrival</h2>
       </div>
