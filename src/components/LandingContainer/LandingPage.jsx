@@ -9,17 +9,20 @@ const LandingPage = () => {
         <h1>Rapid Response</h1>
         <hr></hr>
         <div className="landing-btns-container">
-          <button className="landing-btn" onClick={() => fnNavigate("/stemi")}>
+          <button
+            className="btn landing-btn"
+            onClick={() => fnNavigate("/stemi")}
+          >
             STEMI
           </button>
           <button
-            className="landing-btn"
+            className="btn landing-btn"
             onClick={() => fnNavigate("/codeFast")}
           >
             Code FAST
           </button>
           <button
-            className="landing-btn"
+            className="btn landing-btn"
             onClick={() => fnNavigate("/codeBlue")}
           >
             Code BLUE

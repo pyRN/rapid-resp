@@ -32,6 +32,7 @@ hr {
   justify-content: flex-start;
   align-items: center;
   background-color: var(--primary-gray);
+  opacity: 0.65;
   border: 2px solid black;
   border-radius: 8px;
   padding: 20px;
@@ -49,23 +50,12 @@ hr {
 }
 
 .landing-btn {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid var(--primary-red);
-  border-radius: 60px 60px 60px 60px;
-  color: var(--primary-red);
   padding: 10px;
   margin: 10px;
   width: 200px;
   min-width: 100px;
   height: 65px;
   font-size: 15pt;
-}
-
-.landing-btn:hover {
-  background-color: black;
-  color: white;
-  box-shadow: 0px 0px 10px var(--primary-red);
-  transition: 0.3s ease-in;
 }
 
 @media screen and (max-width: 700px) {
