@@ -20,7 +20,7 @@ function Defibrillate() {
           <option value="300 Joules">300 Joules</option>
           <option value="360 Joules">360 Joules</option>
         </select>
-        <button className="" name="shock" onClick={fnOnClick}>
+        <button className="btn code-blue-btn" name="shock" onClick={fnOnClick}>
           Shock
         </button>
       </div>

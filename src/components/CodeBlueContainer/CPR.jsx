@@ -13,10 +13,18 @@ const CPR = () => {
       </div>
       <div className="card-content center row">
         <h3 className="">Current CPR Time: 00:00</h3>
-        <button className="" name="stopCpr" onClick={fnOnClick}>
+        <button
+          className="btn code-blue-btn"
+          name="stopCpr"
+          onClick={fnOnClick}
+        >
           Stop
         </button>
-        <button className="" name="startCpr" onClick={fnOnClick}>
+        <button
+          className="btn code-blue-btn"
+          name="startCpr"
+          onClick={fnOnClick}
+        >
           Start
         </button>
       </div>

@@ -37,7 +37,7 @@ const QuickMeds = () => {
         {aQuickMedicationNames.map((sMedicationName) => {
           return (
             <button
-              className=""
+              className="btn code-blue-btn"
               name={sMedicationName}
               onClick={fnOnClick}
               key={sMedicationName}

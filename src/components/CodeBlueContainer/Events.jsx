@@ -7,27 +7,34 @@ const Events = () => {
     event.preventDefault();
   };
 
+  const aEventNames = [
+    "Patient Arrived",
+    "Code Start",
+    "Pulse Check",
+    "R.O.S.C",
+    "Transferred",
+    "Expired",
+    ,
+  ];
+
   return (
     <div className="events-card column center card">
       <div className="card-header">
         <h2>Event</h2>
       </div>
       <div className="card-content center column">
-        <button className="code-blue-btn" onClick={fnOnClick}>
-          Code Start
-        </button>
-        <button className="code-blue-btn" onClick={fnOnClick}>
-          Pulse Check
-        </button>
-        <button className="code-blue-btn" onClick={fnOnClick}>
-          R.O.S.C
-        </button>
-        <button className="code-blue-btn" onClick={fnOnClick}>
-          Transferred
-        </button>
-        <button className="code-blue-btn" onClick={fnOnClick}>
-          Expired
-        </button>
+        {aEventNames.map((sEventName) => {
+          return (
+            <button
+              className="btn code-blue-btn"
+              name={sEventName}
+              onClick={fnOnClick}
+              key={sEventName}
+            >
+              {sEventName}
+            </button>
+          );
+        })}
       </div>
     </div>
   );

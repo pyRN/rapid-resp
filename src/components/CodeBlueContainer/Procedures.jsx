@@ -9,7 +9,7 @@ const Procedures = () => {
       </div>
       <div className="card-content center column">
         <button
-          className=""
+          className="btn code-blue-btn"
           name="I.V."
           key="I.V."
           data-toggle="modal"
@@ -18,7 +18,7 @@ const Procedures = () => {
           I.V.
         </button>
         <button
-          className=""
+          className="btn code-blue-btn"
           name="I.O."
           key="I.O."
           data-toggle="modal"
@@ -27,7 +27,7 @@ const Procedures = () => {
           I.O.
         </button>
         <button
-          className=""
+          className="btn code-blue-btn"
           name="Intubation"
           key="Intubation"
           data-toggle="modal"
@@ -36,7 +36,7 @@ const Procedures = () => {
           Intubation
         </button>
         <button
-          className=""
+          className="btn code-blue-btn"
           name="Chest Tube"
           key="Chest Tube"
           data-toggle="modal"
@@ -45,7 +45,7 @@ const Procedures = () => {
           Chest Tube
         </button>
         <button
-          className="b"
+          className="btn code-blue-btn"
           name="Central Line"
           key="Central Line"
           data-toggle="modal"

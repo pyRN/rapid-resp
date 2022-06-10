@@ -26,7 +26,7 @@ const Rhythm = () => {
         {aRhythms.map((sRhythm) => {
           return (
             <button
-              className=""
+              className="btn code-blue-btn"
               name={sRhythm}
               onClick={fnOnClick}
               key={sRhythm}
@@ -37,7 +37,11 @@ const Rhythm = () => {
         })}
         <div>
           <input placeholder="Other" />
-          <button className="" name="Other" onClick={fnOnClick}>
+          <button
+            className="btn code-blue-btn"
+            name="Other"
+            onClick={fnOnClick}
+          >
             Add
           </button>
         </div>

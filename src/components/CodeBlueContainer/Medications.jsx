@@ -13,7 +13,11 @@ const Medications = () => {
       </div>
       <div className="card-content center row">
         <input placeholder="Medication" />
-        <button className="" name="addMedication" onClick={fnOnClick}>
+        <button
+          className="btn code-blue-btn"
+          name="addMedication"
+          onClick={fnOnClick}
+        >
           Add
         </button>
       </div>

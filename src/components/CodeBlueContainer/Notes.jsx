@@ -11,9 +11,9 @@ const Notes = () => {
       <div className="card-header">
         <h2>Notes</h2>
       </div>
-      <div className="card-content center row">
+      <div className="card-content center column">
         <textarea className="" id="noteTextArea" placeholder="Ad Hoc Notes" />
-        <button className="" name="Note" onClick={fnOnClick}>
+        <button className="btn code-blue-btn" name="Note" onClick={fnOnClick}>
           Add
         </button>
       </div>

@@ -13,7 +13,11 @@ const Team = () => {
       </div>
       <div className="card-content center row">
         <input placeholder="Team Member Name" />
-        <button className="" name="addTeamMember" onClick={fnOnClick}>
+        <button
+          className="btn code-blue-btn"
+          name="addTeamMember"
+          onClick={fnOnClick}
+        >
           Add
         </button>
       </div>
