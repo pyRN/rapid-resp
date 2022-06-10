@@ -7,13 +7,18 @@
 .main-code-blue-container {
   display: grid;
   grid-template-columns: 0.75fr 1fr 1fr 0.75fr;
-  grid-template-rows: 1fr, 0.5fr, 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
   column-gap: 20px;
+  background: var(--tertiary-red) url("../../media/Code-Blue.jpg") center
+    no-repeat;
+  background-blend-mode: multiply, luminosity;
+  height: 100%;
+  width: 100%;
 }
 
 .pta-card {
   grid-column: 2/3;
-  grid-row: 1;
+  grid-row: 0.5;
 }
 
 .cpr-card {
@@ -54,16 +59,32 @@
   grid-row: 3;
 }
 
-.outcome-card {
+.events-card {
   grid-column: 4;
   grid-row: 3;
 }
+
+.code-blue-btn {
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  min-width: 100px;
+  height: 45px;
+  font-size: 10pt;
+}
+
+/* .code-blue-btn:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  box-shadow: 0px 0px 10px var(--primary-red);
+  transition: 0.3s ease-in;
+} */
 
 @media only screen and (max-width: 1100px) {
   .main-code-blue-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0 5%;
+    margin: 0;
   }
 }
